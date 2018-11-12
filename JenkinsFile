@@ -1,6 +1,6 @@
 node {
     def rootDir = pwd()
-    def example = load "Example.Groovy "
+    def example = load "test.groovy "
     example.exampleMethod()
     example.otherExampleMethod()
 }
